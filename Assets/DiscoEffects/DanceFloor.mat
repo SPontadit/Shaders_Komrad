@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DanceFloor
+  m_Shader: {fileID: 4800000, guid: 71ec25c9083052246a74084ad86ac7dc, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ColorTex:
+        m_Texture: {fileID: 2800000, guid: 044660c5e42b6ef419a14455dd46e293, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DeformerTex:
+        m_Texture: {fileID: 2800000, guid: dabe0a181979f3d4396bc5676a0ad794, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 5d4053c74715e294cabc694edb7597d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorIntensity: 0.75
+    - _ColorSize: 0.8
+    - _ColorSpeedX: 0
+    - _ColorSpeedY: 0.3
+    - _DeformerSpeedX: 0.35
+    - _DeformerSpeedY: 1.3
+    - _Intensity: 0.36
+    m_Colors: []

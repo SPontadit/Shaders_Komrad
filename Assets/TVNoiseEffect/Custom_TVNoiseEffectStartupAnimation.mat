@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_TVNoiseEffectStartupAnimation
+  m_Shader: {fileID: 4800000, guid: 208a10dab992d15468a0a1d8c1abf257, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: fcbc8d5b267b8d846b591fab7f9684ec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NumberTexture:
+        m_Texture: {fileID: 2800000, guid: be0b681cd6c338340a9123a27b1cf8b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScanLineMask:
+        m_Texture: {fileID: 2800000, guid: 1a9cfae1a589ca042b756fe3506d72fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTex:
+        m_Texture: {fileID: 2800000, guid: a1e340065472f2d4d9f57a162e0b1da4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bend: 5
+    - _IntensityTex2: 0.156
+    - _NumberBlend: 0.9
+    - _NumberGlobalMul: 2.08
+    - _NumberMul: 0.62
+    - _PanningTex1_X: 10
+    - _PanningTex1_Y: 1
+    - _PanningTex2_X: -10
+    - _PanningTex2_Y: -1
+    - _ScanLinePanningY: 0
+    - _Speed: 1.96
+    - _ThresholdTex1: 0.08
+    - _ThresholdTex2: 0.12
+    - _UVMul: 1
+    m_Colors: []
